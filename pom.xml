@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mss.plugins</groupId>
-	<artifactId>miracle-code-quality-plugin</artifactId>
+	<artifactId>miracle-code-quality-check</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 	<description>Sample Project for Checkstyle and PMD</description>
@@ -13,7 +13,7 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<url>https://maven.pkg.github.com/jganthakoru/final-plugin</url>
+			<url>https://maven.pkg.github.com/jganthakoru/test-maven-plugin</url>
 		</repository>
 	</distributionManagement>
 
@@ -42,6 +42,7 @@
 			<version>3.9.4</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<!--<dependency>
 			<groupId>org.apache.maven</groupId>
 			<artifactId>maven-project</artifactId>
